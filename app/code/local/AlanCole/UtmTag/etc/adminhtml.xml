@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <alancole_utmtag translate="title" module="alancole_utmtag">
+                                <title>UTM Tagger</title>
+                            </alancole_utmtag>
+						</children>
+                    </catalog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <catalog>
+            <children>
+                <alancole_utmtag translate="title" module="alancole_utmtag">
+                    <title>UTM Tagger</title>
+                    <sort_order>5</sort_order>
+					<action>utmtagger/index/index</action>
+                </alancole_utmtag>
+			</children>
+        </catalog>
+    </menu>
+</config>
